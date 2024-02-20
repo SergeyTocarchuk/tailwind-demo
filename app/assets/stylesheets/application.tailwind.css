@@ -6,3 +6,16 @@
   @apply border-solid border-blue-300 border-b-2
 }
 
+@layer components {
+  .side-menu {
+    z-index: 999999;
+    background-color: white;
+    min-height: 100vh;
+    border-right: 1px solid #DEE3EC;
+    min-width: 192px;
+  }
+
+  .hide {
+    display: none;
+  }
+}
