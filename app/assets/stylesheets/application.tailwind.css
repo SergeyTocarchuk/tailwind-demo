@@ -8,11 +8,18 @@
 
 @layer components {
   .side-menu {
+    display: block;
     z-index: 999999;
-    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 200px;
     min-height: 100vh;
     border-right: 1px solid #DEE3EC;
-    min-width: 192px;
+    background: white;
+    transition: min-width 0.3s ease;
   }
 
   .hide {
